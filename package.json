@@ -6,7 +6,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "build": "npm install --prefx ./client && npm run build --prefix ./client && npm install",
+    "build": "npm install --prefix ./client && npm run build --prefix ./client && npm install",
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
