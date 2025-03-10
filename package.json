@@ -4,10 +4,10 @@
   "type": "module",
   "description": "Backend for Todo application",
   "main": "server.js",
-  "scripts": {
-    "start": "node server.js",
-    "build": "npm install --prefix ./client && npm run build --prefix ./client && npm install",
-  },
+"scripts": {
+  "start": "node server.js",
+  "build": "npm install --prefix ./client && npm run build --prefix ./client && npm install"
+},
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
